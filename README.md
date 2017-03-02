@@ -15,5 +15,12 @@ Where
 	N is Noise power
 ```
 
+The received power S can be considered to be coming from n different sources.
+```dart
+	S = Sum(si,n)
+```
+\begin{equation}
+\sum_{\forall i}{s_i^{2}}
+\end{equation}
 
 ## References
