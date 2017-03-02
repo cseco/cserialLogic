@@ -17,10 +17,8 @@ Where
 
 The received power S can be considered to be coming from n different sources.
 ```dart
-	S = Sum(si,n)
+	S = Sum(Si,n)
+	And For constant Si
+	S = n * Si
 ```
-\begin{equation}
-\sum_{\forall i}{s_i^{2}}
-\end{equation}
-
 ## References
