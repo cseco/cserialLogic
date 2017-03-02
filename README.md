@@ -35,8 +35,9 @@ It is an important observation that ``` Cs > C ```. The challenge then is to fin
 ## 2. Comparing with Existing Systems
 The concept of cserial logic has somethings in common with some existing systems like OFDM and QPSK/QAM. OFDM has a single channel divided into overlapping channels which are orthogonal so that they do not interfere with one another.
 Some of the similarities are
+```dart
  i. creation of subchannels
  ii. multiplexing of the signals in the subchannels.
  ii. No interference created in a sub channel from signals in other subchannels 
-	
+```
 ## References
