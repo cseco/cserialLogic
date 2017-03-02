@@ -31,5 +31,12 @@ In this setup the overall channel capacity is then
 	Cs = Sum(Ci, 1, n)
 	Cs = B Sum(log2(1+S/(n N)))
 ```	
-It is an important observation that ```dart Cs > C```. 
+It is an important observation that ``` Cs > C ```. The challenge then is to find ways of having n sub channels sharing the same bandwidth and transmitting data simultaneously to a single receiver in such a way that the transmitted and received power is the sum of the power of the individual signals and the received noise power for a single signal is the same as for the combined signal.
+## 2. Comparing with Existing Systems
+The concept of cserial logic has somethings in common with some existing systems like OFDM and QPSK/QAM. OFDM has a single channel divided into overlapping channels which are orthogonal so that they do not interfere with one another.
+Some of the similarities are
+ i. creation of subchannels
+ ii. multiplexing of the signals in the subchannels.
+ ii. No interference created in a sub channel from signals in other subchannels 
+	
 ## References
